@@ -15,7 +15,7 @@ public class LuckySkyscraper {
         return fakeFloor - numbersEndingInForOrThirteen;
     }
 
-    public int toFakeFloor(int realFloor) {
+    public static int toFakeFloor(int realFloor) {
 
         int returnValue = 1;
         for (int i = 1; i <= realFloor; i++) {
